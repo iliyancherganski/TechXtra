@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechXtra", "TechXtra\TechXtra.csproj", "{F2E6C07C-4A45-4594-8D62-AD8ABC6F87A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechXtra", "TechXtra\TechXtra.csproj", "{F2E6C07C-4A45-4594-8D62-AD8ABC6F87A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechXtra.Common", "TechXtra.Common\TechXtra.Common.csproj", "{DB000A4D-AB93-460F-ABFE-C8080AF76805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechXtra.Infrastructures", "TechXtra.Infrastructures\TechXtra.Infrastructures.csproj", "{62791AE7-7BD9-411D-984F-EECAAB6DD4A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F2E6C07C-4A45-4594-8D62-AD8ABC6F87A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2E6C07C-4A45-4594-8D62-AD8ABC6F87A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2E6C07C-4A45-4594-8D62-AD8ABC6F87A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB000A4D-AB93-460F-ABFE-C8080AF76805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB000A4D-AB93-460F-ABFE-C8080AF76805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB000A4D-AB93-460F-ABFE-C8080AF76805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB000A4D-AB93-460F-ABFE-C8080AF76805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62791AE7-7BD9-411D-984F-EECAAB6DD4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62791AE7-7BD9-411D-984F-EECAAB6DD4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62791AE7-7BD9-411D-984F-EECAAB6DD4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62791AE7-7BD9-411D-984F-EECAAB6DD4A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
